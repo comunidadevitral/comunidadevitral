@@ -7,7 +7,7 @@ da marca no hero e a tira de 4 cores no rodapé.
 
 Versão atual: **v3.0.1** · Branch de trabalho: `homologacao`
 
-Publicado em: <https://ismaelmmachado.github.io/comunidadevitral/>
+Publicado em: <https://comunidadevitral.github.io/comunidadevitral/>
 
 ## Páginas
 
@@ -53,5 +53,5 @@ Abra `index.html` diretamente no navegador (site estático, sem servidor).
 
 ## Publicar
 
-O GitHub Pages serve a raiz da branch `homologacao`. Basta fazer push nessa branch.
-`main` só é usada em deploys explícitos.
+O GitHub Pages serve a raiz da branch `main`. Para publicar, faça push da branch `homologacao` para `main` (ou faça merge via PR).
+A branch `main` reflete exatamente o que está em produção.

@@ -12,7 +12,7 @@ Guia de convenções e contexto para agentes que trabalham neste repositório.
 ## Projeto
 
 Novo site estático da Comunidade Vitral (IPIB São José do Rio Preto), em substituição ao site Wix.
-Publicado via GitHub Pages: `https://ismaelmmachado.github.io/comunidadevitral/`
+Publicado via GitHub Pages: `https://comunidadevitral.github.io/comunidadevitral/`
 
 ### Stack
 - **HTML5 + CSS puro** — sem build step, zero dependências de runtime.
@@ -42,9 +42,9 @@ Publicado via GitHub Pages: `https://ismaelmmachado.github.io/comunidadevitral/`
 
 ## Deploy (GitHub Pages)
 
-- GitHub Pages serve a raiz (`/`) da branch **`homologacao`**.
-- Sem build step: `git push origin homologacao` publica o conteúdo commitado.
-- Verificação: `gh api repos/ismaelmmachado/comunidadevitral/pages` → `status: built`.
+- GitHub Pages serve a raiz da branch **`main`**.
+- Sem build step: `git push origin main` publica o conteúdo commitado.
+- Verificação: `gh api repos/comunidadevitral/comunidadevitral/pages` → `status: built`.
 
 ## Convenções
 
