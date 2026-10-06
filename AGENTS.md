@@ -12,7 +12,7 @@ Guia de convenções e contexto para agentes que trabalham neste repositório.
 ## Projeto
 
 Novo site estático da Comunidade Vitral (IPIB São José do Rio Preto), em substituição ao site Wix.
-Publicado via GitHub Pages: `https://comunidadevitral.github.io/comunidadevitral/`
+Publicado via Cloudflare Pages (consultar painel para URL atual)
 
 ### Stack
 - **HTML5 + CSS puro** — sem build step, zero dependências de runtime.
@@ -42,10 +42,10 @@ Publicado via GitHub Pages: `https://comunidadevitral.github.io/comunidadevitral
 
 ## Deploy (GitHub Pages)
 
-- GitHub Pages serve a raiz da branch **`main`**.
-- Sem build step: `git push origin main` publica o conteúdo commitado.
-- Verificação: `gh api repos/comunidadevitral/comunidadevitral/pages` → `status: built`.
-
+- O site é publicado automaticamente ao fazer push para a branch `main` via integração GitHub-Cloudflare Pages.
+- Nenhum passo de build é necessário (site estático puro).
+- Após o push, verifique o status do deployment no painel do Cloudflare Pages.
+- O URL do site é configurado no Cloudflare Pages (pode ser um subdomínio *.pages.dev ou domínio personalizado).
 ## Convenções
 
 - Idioma: português (pt-BR).
